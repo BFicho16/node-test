@@ -1,0 +1,18 @@
+function Dog (breed) {
+  this.breed = breed;
+}
+
+// here we use the Prototype method to
+// add a new function to the class Dog
+
+Dog.prototype.bark = function() {
+  console.log("Woof");
+};
+
+
+// here we make the dogs bark
+var snoopy = new Dog("Beagle");
+var buddy = new Dog("golden Retriever");
+/// this time it works!
+snoopy.bark();
+buddy.bark();

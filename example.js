@@ -12,7 +12,7 @@
 
 // console.log('Server running at http://127.0.0.1:8888/');
 
-// REFACTORED
+// REFACTORED CODE BELOW
 
 var http = require('http');
 
